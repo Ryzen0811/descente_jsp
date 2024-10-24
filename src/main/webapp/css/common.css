@@ -1,0 +1,228 @@
+@charset "utf-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* header */
+#header {
+  width: 1600px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: whitesmoke;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+}
+
+/* 로고 */
+#logo {
+  width: 190px;
+  height: 97px;
+  float: left;
+  margin: 1px 0 0 1px;
+}
+
+#logo > a > img {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+/* 로그인 */
+#login {
+  width: 270px;
+  height: 40px;
+  float: right;
+  font-size: 13px;
+  font-family: "맑은 고딕";
+  text-align: center;
+  margin: 10px 0 0 0px;
+}
+
+#login > span {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#login > span > a {
+  text-decoration: none;
+  color: black;
+}
+
+#login > span > a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+/* 네비게이션 바 */
+nav {
+  float: right;
+  width: 1300px;
+  height: 40px;
+  margin: -5px 0 0 0px;
+  position: relative;
+  z-index: 100;
+}
+
+nav > p {
+  color: black;
+}
+
+nav > ul {
+  font-weight: bold;
+}
+
+nav > ul > li {
+  float: left;
+  padding: 0 30px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: black;
+}
+
+nav > ul > li > a:hover {
+  text-decoration: none;
+  color: gray;
+}
+
+/* footer */
+#footer {
+  width: 1600px;
+  height: 500px;
+  margin: auto;
+  top: 20px;
+  left: 0px;
+  position: relative;
+}
+
+#footer > #descente2 {
+  width: 100%;
+  height: 150px;
+  background-color: #e8e8e83f;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#footer > #descente2 > .icon {
+  width: 200px;
+  height: 100px;
+  margin: 80px;
+  display: flex;
+}
+
+#footer > #descente2 > .icon > h4 {
+  text-align: center;
+  margin: 0 0 0 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#footer > #descente2 > .icon > p {
+  text-align: left;
+  font-size: 16px;
+  align-content: center;
+  margin: 90 0 0 80px;
+}
+
+#footer > #descente2 > .icon > img {
+  float: center;
+  width: 40%;
+  height: 80%;
+  border-radius: 0%;
+  margin: 0 auto;
+}
+
+#footer > #descente2 > #descente3 {
+  width: 140px;
+  height: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+#footer > #descente2 > #descente3 > a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer > #descente3 {
+  width: 100%;
+  height: 240px;
+  position: relative;
+  font-family: "맑은 고딕";
+}
+
+#descente3 > #desc1 {
+  float: left;
+  width: 1200px;
+  height: 300px;
+  position: absolute;
+  top: -120px;
+  left: -10px;
+  display: flex;
+}
+
+#descente3 > #desc1 > span {
+  margin: 0 auto;
+  text-align: center;
+  align-content: center;
+  font-size: 12px;
+  color: grey;
+}
+
+#descente3 > #desc1 > span > a {
+  text-decoration: none;
+  color: gray;
+}
+
+#descente3 > #desc2 {
+  width: 750px;
+  height: 80px;
+  position: absolute;
+  top: 50px;
+  left: -20px;
+}
+
+#descente3 > #desc2 > p {
+  margin: 0 0 0 25px;
+  font-size: 13px;
+  color: #757272;
+}
+
+#descente3 > #desc3 {
+  width: 500px;
+  height: 50px;
+  position: absolute;
+  top: 244px;
+  left: -205px;
+}
+
+#descente3 > #desc3 > a > p {
+  text-decoration: none;
+  color: #757272;
+  margin: 0 0 0 25px;
+  font-size: 13px;
+}

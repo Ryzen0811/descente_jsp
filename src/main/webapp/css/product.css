@@ -1,0 +1,121 @@
+@charset "utf-8";
+
+* {
+	margin:0;
+	padding:0;
+	font-family: "맑은 고딕";
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 칸 띄우기 */
+.br {
+    width: 1600px;
+    height: 50px;
+    background-color: white;
+}
+
+
+#wrap {
+	width: 70%;
+	/* 수정된 부분: 가로 크기를 100%로 설정 */
+	margin: 0 auto;
+}
+
+h1 {
+	padding-bottom: 30px;
+}
+
+#font {
+	color: black;
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	margin-top: 70px;
+	margin-bottom: 50px;
+}
+
+table {
+	width: 70% !important;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	font-size: 14px;
+	line-height: 25px;
+}
+
+
+table td,
+th {
+	border: #666 solid 1px;
+	padding: 5px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+th {
+	background: #eee;
+}
+
+img {
+	width: 220px;
+	height: 300px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+	font-weight: bold;
+}
+
+a:HOVER {
+	text-decoration: underline;
+	color: rgb(0, 0, 255);
+	font-weight: bold;
+}
+
+.left {
+	text-align: left;
+	padding-left: 75px;
+}
+
+
+
+
+.btn {
+	width: 68px;
+    height: 27px;
+    font-size: 15px;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    background-color: #e7e7e7;
+}
+
+.btn:hover {
+	color: rgb(0, 0, 255);
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+input {
+	border: 0;
+   	outline: none;
+   	margin-top: 20px;
+	text-align: right;
+}
+
+#text {
+	font-size: 15px;
+}

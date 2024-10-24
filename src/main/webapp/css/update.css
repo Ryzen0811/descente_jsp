@@ -1,0 +1,207 @@
+@charset "utf-8";
+
+* {
+	margin:0;
+	padding:0;
+	font-family: "맑은 고딕";	
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol, li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* 칸 띄우기 */
+.br {
+    width: 1600px;
+    height: 50px;
+    background-color: white;
+}
+
+body {
+	background-color: whitesmoke;
+}
+
+h2 {
+	font-family: "맑은 고딕";
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 40px;
+	font-weight: bold;
+	margin-top: 100px;
+}
+
+h3 {
+	font-family: "맑은 고딕";
+	font-size: 35px;
+	text-align: center;
+	padding-bottom: 35px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+p {
+	font-size: 15px;
+	color: rgb(0, 0, 255);
+}
+
+#update_section {
+	margin: 0 auto;
+	width: 750px;
+	height: 650px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	background-color: white;
+	border: 1px solid #666;
+}
+
+
+#update_box {
+	float: left;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#user_update_box {
+	margin: 0 auto;
+	width: 400px;
+	height: 550px;
+	}
+
+#user_update {
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+
+#user_update_desc1 {
+	width: 100%;
+	height: 50px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#user_update_desc1 > span {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#user_update_desc1 > span > input {
+	width: 220px;
+	height: 35px;
+	font-size: 15px;
+	padding-left: 5px;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #666;
+}
+
+#user_update_desc2 {
+	width: 100%;
+	height: 50px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+#user_update_desc2 > span {
+	font-size: 17px;
+	font-weight: bold;
+}
+
+#user_update_desc2 > span > input {
+	width: 220px;
+	height: 35px;
+	font-size: 15px;
+	padding-left: 5px;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #666;
+}
+
+#btn {
+	padding-left: 170px;
+}
+
+#user_update_desc2 > #btn > input {
+    width: 90px;
+    height: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: #666;
+    color: white;
+   	margin-top: 5px;
+}
+
+#user_update_desc2 > #btn:hover > input {
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+}
+
+
+#user_update_desc3 {
+	width: 100%;
+	height: 50px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#user_update_desc3 > span {
+	font-size: 17px;
+	font-weight: bold;
+	padding: 0 10px 0 10px;
+}
+
+#user_update_desc3 > span > input {
+	width: 20px;
+	height: 20px;
+	font-size: 15px;
+	padding: 0 10px 0 10px;
+	outline: none;
+	border: 0;
+	border-bottom: 1px solid #666;
+}
+
+
+#user_update_desc4 {
+	width: 100%;
+	height: 30px;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#user_update_desc4 > span {
+	font-size: 17px;
+	font-weight: bold;
+	padding: 0 10px 0 10px;
+}
+
+#user_update_desc4 > span > input {
+	width: 50px;
+	height: 25px;
+	font-size: 15px;
+	font-weight: bold;
+	outline: none;
+	border: 0;
+	background-color: white;
+	padding: 0 10px 0 10px;
+}
+
+#user_update_desc4 > span > input:hover {
+	text-decoration: none;
+	color: rgb(0, 0, 255);
+	font-weight: bold;
+}

@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* 슬라이더 */
+#slider {
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.slidelist {
+  width: 9600px;
+  margin-top: 120px;
+}
+
+.slidelist > li {
+  float: left;
+  width: 1200px;
+}
+
+.slidelist > li > a > img {
+  width: 1200px;
+  height: 500px;
+}
+
+#slider > span {
+  position: absolute;
+  top: 50%;
+  display: block;
+  font-size: 38px;
+  color: #fff;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+  height: 50px;
+  transform: translateY(-50%);
+}
+
+#slider > span:hover {
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+
+.prev {
+  left: 0;
+  border-radius: 0 10px 10px 0px;
+  padding: 10px;
+}
+
+.next {
+  right: 0;
+  border-radius: 10px 0px 0px 10px;
+  padding: 10px;
+}
+
+main {
+  width: 1600px;
+  height: auto;
+  margin: 0 auto;
+}
+
+body {
+  font-family: Charcoal, sans-serif;
+  background-color: #eee;
+}
+
+.box > div {
+  width: 270px;
+  height: 279px;
+  overflow: hidden;
+}
+
+.box > div > a > img {
+  width: 270px;
+  height: 270px;
+}
+
+.box > div > a > img:hover {
+  opacity: 0.5;
+}
+
+.box > h5 > a {
+  font-size: 12px;
+  height: 20px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #000;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+
+.box > p > a {
+  border-bottom: 1px solid #eee;
+  margin-right: 15px;
+  margin-left: 15px;
+  font-size: 12px;
+  color: #666;
+  line-height: 45px;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+}
+
+.box > span {
+  font-size: 11px;
+  margin-left: 15px;
+  margin-right: 15px;
+  float: left;
+}
+
+.box > button {
+  font-size: 11px;
+  border-radius: 3px;
+  border: none;
+  background: #ba7112;
+  padding: 5px;
+  color: #fff;
+  margin-right: 15px;
+  float: right;
+  cursor: pointer;
+}
+
+p {
+  color: #666;
+  font-size: 13px;
+  margin: 0;
+}
+
+article {
+  width: 1200px;
+  height: 900px;
+  text-align: center;
+  border: 1px solid #999;
+  margin: 0 auto;
+}
+
+.box {
+  width: 270px;
+  height: 400px;
+  margin: auto;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.descente {
+  width: 1000px;
+  height: 700px;
+  margin: 0 auto;
+}
+
+.descente > h1 {
+  text-align: center;
+}
